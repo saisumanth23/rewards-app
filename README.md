@@ -2,8 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## QUESTION PROVIDED ( Code writtern based on query provided by considering example)
 
+<h1> 
 UI developer
 
 A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.
@@ -23,8 +24,9 @@ Given a record of every transaction during a three month period, calculate the r
 ·         Make up a data set to best demonstrate your solution
 
 ·         Check solution into GitHub
+</h1>
 
-### `npm start`
+### `npm start` ( Command to run application)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
