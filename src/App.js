@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Reward App</h2>
+        <h2>Rewards App</h2>
       </header>
       <div className="content-container">
         <TransactionList transactions={MockTransactions} />

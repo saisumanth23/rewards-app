@@ -44,13 +44,25 @@ const TransactionList = ({ transactions }) => {
     return (
         <div className="transaction-list">
             <div>
-                <button onClick={showAllTransactions}>Show All Transactions</button>
-                <button onClick={showLastThreeMonthTransactions}>Show Last 3 Month Transactions</button>
-                <button onClick={showMonthlyTransactions}>Show Last Three Months Monthly Transactions</button>
+                <button 
+                style={{background:"darkcyan", color: "white", padding: 10, fontWeight:800}}
+                onClick={showAllTransactions}>
+                Show All Transactions
+                </button>
+                <button 
+                style={{background:"darkcyan", color: "white", padding: 10, fontWeight:800}} 
+                onClick={showLastThreeMonthTransactions}>
+                    Show Last 3 Month Transactions
+                    </button>
+                <button 
+                style={{background:"darkcyan", color: "white", padding: 10, fontWeight:800}} 
+                onClick={showMonthlyTransactions}>
+                    Show Last Three Months Monthly Transactions
+                </button>
             </div>
-            <Table>
+            <Table >
                 <thead>
-                    <tr>
+                    <tr style={{    background: "cadetblue",color: "white"}}>
                         <th>#</th>
                         <th>Date</th>
                         <th>Transaction Amount</th>
